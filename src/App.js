@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <NavBar
           title="📝 Text Insights 📝"
           aboutText="About"

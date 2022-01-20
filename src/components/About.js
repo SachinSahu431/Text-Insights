@@ -6,18 +6,19 @@ export default function About(props) {
       className="container"
       style={{ color: props.mode === "light" ? "black" : "white" }}
     >
-      <h1 className="my-3">About</h1>
+      <h1 className="my-3">About:</h1>
       <p>
-        'Text Insights' is a collection of useful text processing utilities. All
-        text tools are simple and easy to use that work right in your browser.
-        And all utilities work exactly the same way — load text and get result!
+        'Text Insights' is a collection of useful text processing utilities.
+        Each of the text tools works right in your browser and is easy to use.
+        There is only one process for using all utilities - to load the text and
+        get the results!
         <br />
       </p>
-      <h3>Features</h3>
+      <h3>Features:</h3>
       <p>
-        Here's a list of free tools to help you with your daily tasks. Check the
-        current features below and feel free to recommend a new feature from the
-        feedback section.
+        We've listed some of the features to help you on a daily basis. The
+        features listed below are currently available. Please feel free to
+        suggest a new feature in the feedback section.
       </p>
       <div
         className="accordion"
@@ -57,9 +58,10 @@ export default function About(props) {
               <strong>Uppercase/Lowercase converter</strong> <br /> With this
               tool, you can convert all letters of input text, regardless of
               their initial case, into uppercase or lowercase.
-              <br />
-              Here, implementation of <code>.toUpperCase()</code> is used to get
-              the work done!
+              <br />I have implemented the functions <code>
+                .toUpperCase()
+              </code>{" "}
+              and <code>.toLowerCase()</code> here to accomplish this.
             </div>
           </div>
         </div>
@@ -98,7 +100,7 @@ export default function About(props) {
               transferred over media that are designed to deal with ASCII.
               <br />
               Function <code>btoa()</code> is used for encoding to Base64. And{" "}
-              <code>atob()</code> is used for decoding Base64.
+              <code>atob()</code> function is used for decoding Base64.
             </div>
           </div>
         </div>
@@ -141,11 +143,11 @@ export default function About(props) {
               Web Speech API is used to add speech synthesis to JavaScript.
               <br />
               The SpeechSynthesisUtterance interface of this API represents a
-              speech request. <br />
+              speech request: <br />
               <code>var msg = new SpeechSynthesisUtterance(text);</code>
               <br />
               SpeechSynthesis interface is used for controlling a text-to-speech
-              output. <br />
+              output: <br />
               <code> window.speechSynthesis.speak(msg)</code>
             </div>
           </div>

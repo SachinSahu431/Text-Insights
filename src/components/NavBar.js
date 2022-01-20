@@ -38,7 +38,6 @@ export default function NavBar(props) {
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
-                  to="/#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -89,7 +88,7 @@ export default function NavBar(props) {
                 className="form-check-label"
                 forhtml="flexSwitchCheckDefault"
               >
-                Enable DarkMode
+                DarkMode
               </label>
             </div>
           </div>
