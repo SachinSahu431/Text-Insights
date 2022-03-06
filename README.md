@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# [Text-Insights](https://sachinsahu431.github.io/Text-Insights/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project is currently hosted on GitHub pages and can be accessed from [here](https://sachinsahu431.github.io/Text-Insights/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+'Text Insights' is a collection of useful text processing utilities. Each of the text tools works right in your browser and is easy to use.\
+There is only one process for using all utilities - to load the text and get the results!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The features listed below are currently available:
 
-### `npm test`
+  - __Uppercase-Lowercase Converter__
+    - With this tool, you can convert all letters of input text, regardless of their initial case, into uppercase or lowercase.
+    - I have implemented the functions `.toUpperCase()` and `.toLowerCase()` here to accomplish this.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - __BASE64 Encoding and Decoding__
+    - Base64 encoding schemes are commonly used when there is a need to encode binary data that needs to be stored and transferred over media that are designed to deal with ASCII.
+    - Function `btoa()` is used for encoding to Base64. And `atob()` function is used for decoding Base64.
 
-### `npm run build`
+  - __Text-to-Speech__
+    - Text-to-speech (TTS) aka “Read Aloud” technology reads aloud digital text — the words on computers, smartphones, and tablets.\
+TTS can help people who struggle with reading.
+    - Web Speech API is used to add speech synthesis to JavaScript.
+    - The `SpeechSynthesisUtterance` interface of this API represents a speech request:
+      ``` 
+      var msg = new SpeechSynthesisUtterance(text)
+      ```
+      
+    - SpeechSynthesis interface is used for controlling a text-to-speech output:
+    
+      ``` 
+      window.speechSynthesis.speak(msg)
+      ```
+  - __Text Summary__ 
+    - This feature provides information like Word & Character Count, approx Reading Time, and Preview.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Other Features 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Other features include: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - `Dynamic Routing` using [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+  - `Dark Mode`
