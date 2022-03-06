@@ -1,7 +1,8 @@
 # [Text-Insights](https://sachinsahu431.github.io/Text-Insights/)
 
-Project is currently hosted on GitHub pages and can be accessed from [here](https://sachinsahu431.github.io/Text-Insights/).
+![](https://github.com/SachinSahu431/Text-Insights/blob/main/src/components/screenShots/welcome.png)
 
+Project is currently hosted on GitHub pages and can be accessed from [here](https://sachinsahu431.github.io/Text-Insights/).
 
 ## About
 
@@ -37,9 +38,14 @@ TTS can help people who struggle with reading.
   - __Text Summary__ 
     - This feature provides information like Word & Character Count, approx Reading Time, and Preview.
 
+![](https://github.com/SachinSahu431/Text-Insights/blob/main/src/components/screenShots/gif1.gif)
+![](https://github.com/SachinSahu431/Text-Insights/blob/main/src/components/screenShots/gif2.gif)
+
 ## Other Features 
 
 Other features include: 
 
   - `Dynamic Routing` using [React Router DOM](https://www.npmjs.com/package/react-router-dom)
   - `Dark Mode`
+
+![](https://github.com/SachinSahu431/Text-Insights/blob/main/src/components/screenShots/one.png)
