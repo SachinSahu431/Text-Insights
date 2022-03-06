@@ -28,7 +28,7 @@ export default function About(props) {
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
-              className="accordion-button"
+              className="accordion-button collapsed"
               type="button"
               style={{
                 backgroundColor: props.mode === "light" ? "#d3e0e9" : "#061124",

@@ -59,7 +59,7 @@ export default function NavBar(props) {
                   <li align="center">
                     <a
                       className="dropdown-item"
-                      href="https://github.com/SachinSahu431"
+                      href="https://github.com/SachinSahu431/Text-Insights/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
